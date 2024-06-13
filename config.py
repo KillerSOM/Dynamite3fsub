@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "22466557"))
 API_HASH = os.environ.get("API_HASH", "020e8aa708282ed9b5210d84ba374736")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001813852666"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001957744474"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5297903100"))
@@ -32,9 +32,9 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://killersom72:<password>@sa
 DB_NAME = os.environ.get("DATABASE_NAME", "SanjiFileStore")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001813852666"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001813852666"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001813852666"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001957744474"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001911164558"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002045647306"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
