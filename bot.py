@@ -109,7 +109,7 @@ class Bot(Client):
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://killersom72:<password>@sanjifilestore.x6rhkdi.mongodb.net/?retryWrites=true&w=majority&appName=SanjiFileStore"
+uri = "mongodb+srv://killersom72:killersom72@sanjifilestore.x6rhkdi.mongodb.net/?retryWrites=true&w=majority&appName=SanjiFileStore"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
